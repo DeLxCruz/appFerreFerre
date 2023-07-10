@@ -12,6 +12,19 @@ if __name__ == "__main__":
     datacompras={'data':[]}
     dataventas={'data':[]}
     while (isActivate):
+        print("╔════════════════════════════════════════╗")
+        print("║            ¡Menú Principal!            ║")
+        print("╠════════════════════════════════════════╣")
+        print("║      Seleccione una opción:            ║")
+        print("║                                        ║")
+        print("║    1. Gestión de Clientes              ║")
+        print("║    2. Gestión de Productos             ║")
+        print("║    3. Gestión de Proveedores           ║")
+        print("║    4. Gestión de Compras               ║")
+        print("║    5. Gestión de Ventas                ║")
+        print("║    6. Salir                            ║")
+        print("║                                        ║")
+        print("╚════════════════════════════════════════╝")
         print('+','-'*55,'+')
         print("|{:^20}{}{:^23}|".format(' ','MENU PRINCIPAL',' '))
         print('+','-'*55,'+')

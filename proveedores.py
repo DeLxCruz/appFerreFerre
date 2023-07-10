@@ -14,15 +14,18 @@ def MainMenu():
     os.system("cls")
     isCliRun = True
     os.system("cls")
-    print('+','-'*55,'+')
-    print("|{:^20}{}{:^23}|".format(' ','ADMINISTRACION DE PROVEEDORES',' '))
-    print('+','-'*55,'+')
-
-    print("1. Registrar proveedor")
-    print("2. Buscar proveedor")
-    print("3. Editar proveedor")
-    print("4. Eliminar proveedor")
-    print("5. Regresar al menú principal")
+    print("╔═════════════════════════════════════════╗")
+    print("║     ¡Administración de Proovedores!     ║")
+    print("╠═════════════════════════════════════════╣")
+    print("║      Seleccione una opción:             ║")
+    print("║                                         ║")
+    print("║    1. Registrar Proveedor               ║")
+    print("║    2. Buscar Proveedor                  ║")
+    print("║    3. Editar Proveedor                  ║")
+    print("║    4. Eliminar Proveedor                ║")
+    print("║    5. Regresar al menú principal        ║")
+    print("║                                         ║")
+    print("╚═════════════════════════════════════════╝")
     opcion =int(input("-->  "))
     if (opcion == 1):
         while True:
