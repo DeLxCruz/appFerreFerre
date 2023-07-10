@@ -26,13 +26,16 @@ if __name__ == "__main__":
             clientes.LoadInfoCliente()
             clientes.MainMenu()
         elif (opcion == 2):
+            productos.LoadInfoProducto()
             productos.MainMenu()
         elif (opcion == 3):
+            proveedores.LoadInfoProveedor()
             proveedores.MainMenu()
         elif (opcion == 4):
+            compras.LoadInfoCompra()
             compras.MainMenu()
         elif (opcion == 5):
+            ventas.LoadInfoVenta()
             ventas.MainMenu()
         elif (opcion == 6):
             isActivate = False
-
